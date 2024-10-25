@@ -8,7 +8,7 @@ import ShareIcon from '@mui/icons-material/Share';
 
 import React from 'react'
 
-const Posts = () => {
+const Posts = ({image}) => {
   return (
     <Box>
        <Card sx={{ maxWidth: 700 , margin:"10px"}}>
@@ -29,7 +29,7 @@ const Posts = () => {
       <CardMedia
         component="img"
         height="20%"
-        image="https://4kwallpapers.com/images/walls/thumbs/18955.jpg"
+        image={image}
       />
       <CardContent>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
