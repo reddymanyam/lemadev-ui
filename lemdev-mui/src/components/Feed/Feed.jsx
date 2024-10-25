@@ -25,7 +25,7 @@ const Feed = () => {
   return (
     <Box  flex={4} p={2} >
         <Stack direction="row" flexWrap="wrap" >
-        {ImgUrls.map((d,i)=>(<Posts image={d}/>))}
+        {ImgUrls.map((d)=>(<Posts image={d}/>))}
         </Stack>
 
       
