@@ -7,7 +7,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 const Rightbar = () => {
   return (
-    <Box flex={2} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
+    <Box flex={2} pt={2} sx={{ display: { xs: "none", sm: "block" } }}>
       <Box position="fixed">
         <Typography variant='h6'>Online Friends</Typography>
         <AvatarGroup total={24} >
@@ -29,7 +29,7 @@ const Rightbar = () => {
               <img src='https://cdn.pixabay.com/photo/2022/12/01/04/43/girl-7628308_640.jpg' />
             </ImageListItem>
           </ImageList>
-          <Typography variant='h6' sx={{ marginTop: "15px" }}>Latest Conversation</Typography>
+          <Typography variant='h6' sx={{ marginTop: "5px" }}>Latest Conversation</Typography>
 
           <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
       <ListItem alignItems="flex-start">
