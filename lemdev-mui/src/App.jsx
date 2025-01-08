@@ -5,16 +5,18 @@ import Rightbar from './components/Rightbar/Rightbar'
 import Feed from './components/Feed/Feed'
 import { Box, Stack } from '@mui/material'
 import Navbar from './components/Navbar/Navbar'
+import GenerateCircle from './components/GenerateCircle/GenerateCircle'
 
 const App = () => {
   return (
     <Box >
-      <Navbar />
+      {/* <Navbar />
       <Stack direction="row" spacing={2} justifyContent="space-between">
         <Sidebar />
         <Feed />
         <Rightbar />
-      </Stack>
+      </Stack> */}
+      <GenerateCircle />
     </Box>
   )
 }
